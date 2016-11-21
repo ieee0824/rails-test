@@ -8,4 +8,4 @@ machine:
         - docker
 test:
     override:
-        - docker-compose up
+        - docker-compose -v
