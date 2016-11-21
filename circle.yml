@@ -6,4 +6,4 @@ machine:
         Asia/Tokyo
 test:
     override:
-        docker build .
+        - docker build .
