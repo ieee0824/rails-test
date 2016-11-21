@@ -4,6 +4,8 @@ machine:
         - sudo pip install docker-compose 
     timezone:
         Asia/Tokyo
+    service:
+        - docker
 test:
     override:
         - docker build .
