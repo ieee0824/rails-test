@@ -1,0 +1,6 @@
+version: '2'
+services:
+    mysql:
+        build: mysql/Dockerfile
+    rails:
+        build: rails/Dockerfile
