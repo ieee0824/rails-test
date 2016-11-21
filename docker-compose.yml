@@ -1,6 +1,8 @@
 version: '2'
 services:
     mysql:
-        build: mysql/Dockerfile
+        build: mysql/
+        environment:
+            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
     rails:
-        build: rails/Dockerfile
+        build: rails/
